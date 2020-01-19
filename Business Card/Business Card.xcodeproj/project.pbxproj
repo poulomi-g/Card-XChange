@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04B3C06CDCF6160EC85791D3 /* Pods_Business_Card_Business_CardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB24E05A4F87D72B70B65F1 /* Pods_Business_Card_Business_CardUITests.framework */; };
+		18BF60B762968C0A52CA83CD /* Pods_Business_CardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC59104285807D1CF2A32832 /* Pods_Business_CardTests.framework */; };
+		74A4FAB3EBC3B15694622830 /* Pods_Business_Card.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDA7CA91AAFC2CA1B3563F58 /* Pods_Business_Card.framework */; };
 		751392AA23D3D51200BE7666 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751392A923D3D51200BE7666 /* AppDelegate.swift */; };
 		751392AC23D3D51200BE7666 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751392AB23D3D51200BE7666 /* SceneDelegate.swift */; };
 		751392AE23D3D51200BE7666 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751392AD23D3D51200BE7666 /* ViewController.swift */; };
@@ -15,6 +18,8 @@
 		751392B623D3D51700BE7666 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 751392B423D3D51700BE7666 /* LaunchScreen.storyboard */; };
 		751392C123D3D51700BE7666 /* Business_CardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751392C023D3D51700BE7666 /* Business_CardTests.swift */; };
 		751392CC23D3D51700BE7666 /* Business_CardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751392CB23D3D51700BE7666 /* Business_CardUITests.swift */; };
+		D771DD1723D3FF03000B78EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D771DD1623D3FF03000B78EB /* GoogleService-Info.plist */; };
+		D7C0C7F823D4010B0045A359 /* facialRecognizer 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D7C0C7F723D4010B0045A359 /* facialRecognizer 1.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02F6EDE24A43D2602F96928E /* Pods-Business Card-Business CardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Business Card-Business CardUITests.release.xcconfig"; path = "Target Support Files/Pods-Business Card-Business CardUITests/Pods-Business Card-Business CardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		48CA68A6EE9892DB9A7516CB /* Pods-Business Card-Business CardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Business Card-Business CardUITests.debug.xcconfig"; path = "Target Support Files/Pods-Business Card-Business CardUITests/Pods-Business Card-Business CardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4AB24E05A4F87D72B70B65F1 /* Pods_Business_Card_Business_CardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Business_Card_Business_CardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0CE45CB4A64514A2CD6AE1 /* Pods-Business CardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Business CardTests.debug.xcconfig"; path = "Target Support Files/Pods-Business CardTests/Pods-Business CardTests.debug.xcconfig"; sourceTree = "<group>"; };
 		751392A623D3D51200BE7666 /* Business Card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Business Card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		751392A923D3D51200BE7666 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		751392AB23D3D51200BE7666 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,13 @@
 		751392C723D3D51700BE7666 /* Business CardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Business CardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		751392CB23D3D51700BE7666 /* Business_CardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business_CardUITests.swift; sourceTree = "<group>"; };
 		751392CD23D3D51700BE7666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8639957166A7D7ED9062493C /* Pods-Business CardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Business CardTests.release.xcconfig"; path = "Target Support Files/Pods-Business CardTests/Pods-Business CardTests.release.xcconfig"; sourceTree = "<group>"; };
+		88D08B1DACF9B2A84F602430 /* Pods-Business Card.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Business Card.debug.xcconfig"; path = "Target Support Files/Pods-Business Card/Pods-Business Card.debug.xcconfig"; sourceTree = "<group>"; };
+		BDA7CA91AAFC2CA1B3563F58 /* Pods_Business_Card.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Business_Card.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D771DD1623D3FF03000B78EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D7C0C7F723D4010B0045A359 /* facialRecognizer 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "facialRecognizer 1.mlmodel"; sourceTree = "<group>"; };
+		F3864F5C66030F496F533B82 /* Pods-Business Card.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Business Card.release.xcconfig"; path = "Target Support Files/Pods-Business Card/Pods-Business Card.release.xcconfig"; sourceTree = "<group>"; };
+		FC59104285807D1CF2A32832 /* Pods_Business_CardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Business_CardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74A4FAB3EBC3B15694622830 /* Pods_Business_Card.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BF60B762968C0A52CA83CD /* Pods_Business_CardTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B3C06CDCF6160EC85791D3 /* Pods_Business_Card_Business_CardUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +102,8 @@
 				751392BF23D3D51700BE7666 /* Business CardTests */,
 				751392CA23D3D51700BE7666 /* Business CardUITests */,
 				751392A723D3D51200BE7666 /* Products */,
+				C227DCCA3460CD853E5E57CE /* Pods */,
+				94C95F9003FB7A8C54825C46 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +125,8 @@
 				751392AD23D3D51200BE7666 /* ViewController.swift */,
 				751392AF23D3D51200BE7666 /* Main.storyboard */,
 				751392B223D3D51700BE7666 /* Assets.xcassets */,
+				D771DD1623D3FF03000B78EB /* GoogleService-Info.plist */,
+				D7C0C7F723D4010B0045A359 /* facialRecognizer 1.mlmodel */,
 				751392B423D3D51700BE7666 /* LaunchScreen.storyboard */,
 				751392B723D3D51700BE7666 /* Info.plist */,
 			);
@@ -128,6 +151,29 @@
 			path = "Business CardUITests";
 			sourceTree = "<group>";
 		};
+		94C95F9003FB7A8C54825C46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDA7CA91AAFC2CA1B3563F58 /* Pods_Business_Card.framework */,
+				4AB24E05A4F87D72B70B65F1 /* Pods_Business_Card_Business_CardUITests.framework */,
+				FC59104285807D1CF2A32832 /* Pods_Business_CardTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C227DCCA3460CD853E5E57CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88D08B1DACF9B2A84F602430 /* Pods-Business Card.debug.xcconfig */,
+				F3864F5C66030F496F533B82 /* Pods-Business Card.release.xcconfig */,
+				48CA68A6EE9892DB9A7516CB /* Pods-Business Card-Business CardUITests.debug.xcconfig */,
+				02F6EDE24A43D2602F96928E /* Pods-Business Card-Business CardUITests.release.xcconfig */,
+				4C0CE45CB4A64514A2CD6AE1 /* Pods-Business CardTests.debug.xcconfig */,
+				8639957166A7D7ED9062493C /* Pods-Business CardTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 751392D023D3D51700BE7666 /* Build configuration list for PBXNativeTarget "Business Card" */;
 			buildPhases = (
+				21FAA77F44BA7ADE12337241 /* [CP] Check Pods Manifest.lock */,
 				751392A223D3D51200BE7666 /* Sources */,
 				751392A323D3D51200BE7666 /* Frameworks */,
 				751392A423D3D51200BE7666 /* Resources */,
+				68298CAE30B77D11B6E2F597 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 751392D323D3D51700BE7666 /* Build configuration list for PBXNativeTarget "Business CardTests" */;
 			buildPhases = (
+				C2307B6F7EF749E1915D2EC5 /* [CP] Check Pods Manifest.lock */,
 				751392B823D3D51700BE7666 /* Sources */,
 				751392B923D3D51700BE7666 /* Frameworks */,
 				751392BA23D3D51700BE7666 /* Resources */,
@@ -170,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 751392D623D3D51700BE7666 /* Build configuration list for PBXNativeTarget "Business CardUITests" */;
 			buildPhases = (
+				83D167DBB7CCF75740BAD805 /* [CP] Check Pods Manifest.lock */,
 				751392C323D3D51700BE7666 /* Sources */,
 				751392C423D3D51700BE7666 /* Frameworks */,
 				751392C523D3D51700BE7666 /* Resources */,
+				7478E118508146FAB549E317 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				751392B623D3D51700BE7666 /* LaunchScreen.storyboard in Resources */,
+				D771DD1723D3FF03000B78EB /* GoogleService-Info.plist in Resources */,
 				751392B323D3D51700BE7666 /* Assets.xcassets in Resources */,
 				751392B123D3D51200BE7666 /* Main.storyboard in Resources */,
 			);
@@ -254,6 +306,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21FAA77F44BA7ADE12337241 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Business Card-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68298CAE30B77D11B6E2F597 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Business Card/Pods-Business Card-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Business Card/Pods-Business Card-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Business Card/Pods-Business Card-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7478E118508146FAB549E317 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Business Card-Business CardUITests/Pods-Business Card-Business CardUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Business Card-Business CardUITests/Pods-Business Card-Business CardUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Business Card-Business CardUITests/Pods-Business Card-Business CardUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83D167DBB7CCF75740BAD805 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Business Card-Business CardUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2307B6F7EF749E1915D2EC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Business CardTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		751392A223D3D51200BE7666 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -262,6 +417,7 @@
 				751392AE23D3D51200BE7666 /* ViewController.swift in Sources */,
 				751392AA23D3D51200BE7666 /* AppDelegate.swift in Sources */,
 				751392AC23D3D51200BE7666 /* SceneDelegate.swift in Sources */,
+				D7C0C7F823D4010B0045A359 /* facialRecognizer 1.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +588,7 @@
 		};
 		751392D123D3D51700BE7666 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88D08B1DACF9B2A84F602430 /* Pods-Business Card.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +607,7 @@
 		};
 		751392D223D3D51700BE7666 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3864F5C66030F496F533B82 /* Pods-Business Card.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +626,7 @@
 		};
 		751392D423D3D51700BE7666 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C0CE45CB4A64514A2CD6AE1 /* Pods-Business CardTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +648,7 @@
 		};
 		751392D523D3D51700BE7666 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8639957166A7D7ED9062493C /* Pods-Business CardTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +670,7 @@
 		};
 		751392D723D3D51700BE7666 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48CA68A6EE9892DB9A7516CB /* Pods-Business Card-Business CardUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -529,6 +690,7 @@
 		};
 		751392D823D3D51700BE7666 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02F6EDE24A43D2602F96928E /* Pods-Business Card-Business CardUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

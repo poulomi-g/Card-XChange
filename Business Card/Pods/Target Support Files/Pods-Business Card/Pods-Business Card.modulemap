@@ -1,0 +1,6 @@
+framework module Pods_Business_Card {
+  umbrella header "Pods-Business Card-umbrella.h"
+
+  export *
+  module * { export * }
+}
