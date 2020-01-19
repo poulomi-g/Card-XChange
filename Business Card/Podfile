@@ -7,6 +7,8 @@ target 'Business Card' do
 
   # Pods for Business Card
   pod 'Firebase'
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
 
   target 'Business CardTests' do
     inherit! :search_paths

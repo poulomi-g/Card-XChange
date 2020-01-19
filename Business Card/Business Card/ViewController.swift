@@ -63,6 +63,21 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         return nil
     }
     
+    
+    @IBAction func upload1(_ sender: UIButton) {
+        if UIImagePickerController.isSourceTypeAvailable(UIImagePickerController.SourceType.camera){
+            NSLog("Entered if statement")
+            let imagePicker1 = UIImagePickerController()
+            imagePicker1.delegate = self
+            imagePicker1.sourceType = UIImagePickerController.SourceType.camera
+            imagePicker1.allowsEditing = false
+            NSLog("Image picker configured")
+            self.present(imagePicker1, animated: true, completion: nil)
+            NSLog("Presented")
+        }
+        
+    }
+    
 }
     
     //func sceneLabel (forImage)
