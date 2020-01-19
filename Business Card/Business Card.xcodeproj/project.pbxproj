@@ -20,6 +20,7 @@
 		751392CC23D3D51700BE7666 /* Business_CardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751392CB23D3D51700BE7666 /* Business_CardUITests.swift */; };
 		D771DD1723D3FF03000B78EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D771DD1623D3FF03000B78EB /* GoogleService-Info.plist */; };
 		D7C0C7F823D4010B0045A359 /* facialRecognizer 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D7C0C7F723D4010B0045A359 /* facialRecognizer 1.mlmodel */; };
+		D7C0C7FC23D426960045A359 /* ImageProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C0C7FB23D426960045A359 /* ImageProcessing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		BDA7CA91AAFC2CA1B3563F58 /* Pods_Business_Card.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Business_Card.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D771DD1623D3FF03000B78EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D7C0C7F723D4010B0045A359 /* facialRecognizer 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "facialRecognizer 1.mlmodel"; sourceTree = "<group>"; };
+		D7C0C7FB23D426960045A359 /* ImageProcessing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImageProcessing.swift; path = "/Users/dev/Desktop/businessCard/Business-Card/Business Card/Business Card/ImageProcessing.swift"; sourceTree = "<absolute>"; };
 		F3864F5C66030F496F533B82 /* Pods-Business Card.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Business Card.release.xcconfig"; path = "Target Support Files/Pods-Business Card/Pods-Business Card.release.xcconfig"; sourceTree = "<group>"; };
 		FC59104285807D1CF2A32832 /* Pods_Business_CardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Business_CardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				751392A923D3D51200BE7666 /* AppDelegate.swift */,
+				D7C0C7FB23D426960045A359 /* ImageProcessing.swift */,
 				751392AB23D3D51200BE7666 /* SceneDelegate.swift */,
 				751392AD23D3D51200BE7666 /* ViewController.swift */,
 				751392AF23D3D51200BE7666 /* Main.storyboard */,
@@ -414,6 +417,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7C0C7FC23D426960045A359 /* ImageProcessing.swift in Sources */,
 				751392AE23D3D51200BE7666 /* ViewController.swift in Sources */,
 				751392AA23D3D51200BE7666 /* AppDelegate.swift in Sources */,
 				751392AC23D3D51200BE7666 /* SceneDelegate.swift in Sources */,
