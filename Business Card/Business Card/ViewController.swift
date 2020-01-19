@@ -20,7 +20,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         super.didReceiveMemoryWarning()
     }
 
-    @IBAction func takePhoto(sender: AnyObject) {
+    @IBAction func takePhoto(sender: UIButton) {
+        sender.isHidden = true
         NSLog("Calling button")
         if UIImagePickerController.isSourceTypeAvailable(UIImagePickerController.SourceType.camera){
             NSLog("Entered if statement")
